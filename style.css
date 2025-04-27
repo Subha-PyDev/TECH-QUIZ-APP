@@ -1,0 +1,136 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Background */
+  body {
+    background-image: url(/image.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  }
+  
+  /* Container */
+  .container {
+    background: rgba(205, 240, 242, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Quiz */
+  .quiz-box {
+    text-align: center;
+  }
+  
+  /* Timer */
+  .timer {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4c51bf;
+    background: #edf2f7;
+    padding: 10px;
+    border-radius: 8px;
+    width: 80px;
+    margin: 0 auto 10px;
+  }
+  
+  /* Time's Up */
+  .times-up {
+    font-size: 22px;
+    color: #e53e3e;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    display: none;
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  
+  /* Question */
+  h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Answer buttons */
+  .answer-buttons {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .btn {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #4c51bf;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #434190;
+    transform: translateY(-2px);
+  }
+  
+  .btn:active {
+    transform: scale(0.97);
+  }
+  
+  /* Correct & Incorrect */
+  .correct {
+    background-color: #38a169 !important;
+  }
+  
+  .incorrect {
+    background-color: #e53e3e !important;
+  }
+  
+  /* Next button */
+  .next-btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #805ad5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: none;
+    transition: 0.3s ease;
+  }
+  
+  .next-btn:hover {
+    background-color: #6b46c1;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive */
+  @media(max-width: 500px) {
+    .container {
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+  }
+  
