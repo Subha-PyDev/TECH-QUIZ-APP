@@ -1,12 +1,12 @@
-_Description_
+_Description_:
 
 Web-based Technology Quiz App, Users test their technology knowledge, Built using HTML, CSS, JavaScript
 
-_Technologies_
+_Technologies_:
 
 HTML | CSS | JS
 
-_Features_
+_Features_:
 
 10 Random Technology Questions
 Timer for each question (15 seconds)
