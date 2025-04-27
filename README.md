@@ -8,9 +8,5 @@ HTML | CSS | JS
 
 _Features_:
 
-10 Random Technology Questions
-Timer for each question (15 seconds)
-Score counter
-Correct/Wrong answer highlighting
-Responsive design
+10 Random Technology Questions, Timer for each question (15 seconds), Score counter, Correct/Wrong answer highlighting, Responsive design
 
